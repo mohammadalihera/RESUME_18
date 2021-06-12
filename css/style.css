@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+  --themecolor: #46919a;
+  --hovercolor: rgb(145, 142, 142);
+  --bgcolor: #fefeff;
+  --textcolor: #eab544;
+  --bordercolor: rgb(117, 112, 112);
+  --designedtext:#eab544;
+  --backgroundcolor:#fbf7ee;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+
+/*  background: linear-gradient(to top right, magenta 0%, hotpink 100%);*/
+/* background-color: rgba(229,230,232,0.6);*/
+  /*box-shadow: 5px 5px 100px 5px rgba(255,255,255,.8);*/
+  color: #555;
+  background: var(--bgcolor);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.bodyContainer{
+
+    width: 8.5in;
+    height: 12in;
+
+    border-radius: 5px;
+    background:  var(--bgcolor);
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;   
+}
+p{
+    font-size: 15px;
+    word-spacing: 5px;
+}
+
+.leftContainer{
+    height: 12in;
+    background-color: #fbf7ee;
+
+    
+    float: left;
+    width: 3in;
+    padding: 10px; 
+
+}
+
+/* left container starts here */
+.image{
+    height: 2in;
+    width: 2.8in;
+    margin: 10px auto;
+    padding: 30px;
+    padding-left: 40px;
+    
+}
+.image img{
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    /* padding: 5px; */
+    border: 4px solid var(--designedtext);
+    margin-left: 18px;
+}
+.education{
+    height: 2.2in;
+    padding-top: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.experience{
+    height: 1.1in;
+    padding-top: 6px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills{
+    height: 2.2in;
+    padding-top: 6px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.language{
+    height: .9in;
+    padding-top: 6px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+.references{
+    height: 1.8in;
+    padding-top: 6px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.interests{
+    height: .9in;
+    padding-top: 6px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+    color:  var(--designedtext);
+}
+
+.eduline{
+    margin-top: 10px;
+    height:160px;
+    width:2px;
+    background-color:var(--textcolor);
+
+}
+.expLine{
+    margin-top: 10px;
+    height:60px;
+    width:2px;
+    background-color:var(--textcolor);
+    
+}
+.skilLine{
+    margin-top: 10px;
+    height:160px;
+    width:2px;
+    background-color:var(--textcolor);
+    
+}
+.langLine{
+    margin-top: 10px;
+    height:40px;
+    width:2px;
+    background-color:var(--textcolor);
+}
+.refLine{
+    margin-top: 10px;
+    height:1200px;
+    width:2px;
+    background-color:var(--textcolor);
+}
+.intLine{
+    margin-top: 10px;
+    height:40px;
+    width:2px;
+    background-color:var(--textcolor);
+}
+
+/* right container starts here */
+
+
+
+.rightContainer{
+    width: 5.5in;
+    height: 12in;
+    background-color: var(--backgroundcolor) ;
+    
+}
+
+.space{
+    margin-bottom: .3rem;
+}
+
+.introduction{
+    height: 2in;
+    padding-left: 10px;
+    padding-top: 45px;
+    margin-bottom: 10px;
+    margin-top: 10px;    
+}
+h1{
+    font-size: 44px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.educationDesc{
+    height: 2.2in;
+    padding: 10px;
+    padding-top: 20px;
+}
+.spaceBig{
+    margin-bottom: .5rem;
+}
+
+.experienceDesc{
+    height: 1.1in;
+    padding: 10px;
+    padding-top: 20px;
+}
+.partialTextColor{
+    color: var(--designedtext);
+}
+a{
+    color: var(--textcolor);
+}
+
+
+/* skill Desc section starts here */
+.skillsDesc{
+    height: 2.2in;
+    padding: 10px;
+    padding-top: 25px;
+}
+.photoshop{
+    display: flex;
+    flex-direction: row;
+}
+.leftPhotoshop{
+    flex: 25%;
+}
+.rightPhotoshop{
+    flex: 78%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Illustrator{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftIllustrator{
+    flex: 25%;
+}
+.rightIllustrator{
+    flex: 78%;
+    display: flex;
+    flex-direction: row;
+}
+.indesign{
+    display: flex;
+    flex-direction: row;
+
+}
+.leftIndesign{
+    flex: 25%;
+
+}
+.rightIndesign{
+    flex: 78%;
+    display: flex;
+    flex-direction: row;
+
+}
+.afterEffect{
+    display: flex;
+    flex-direction: row;
+
+}
+.leftAfterEffect{
+    flex: 25%;
+
+}
+.rightAfterEffect{
+    flex: 78%;
+    display: flex;
+    flex-direction: row;
+
+}
+.sketch{
+    display: flex;
+    flex-direction: row;
+
+}
+.leftSketch{
+    flex: 25%;
+
+}
+.rightSketch{
+    flex: 78%;
+    display: flex;
+    flex-direction: row;
+
+}
+.skillCircle{
+    height: 5px;
+    width: 5px;
+    /* margin-left: 5px; */
+    margin-right: 4px;
+    padding: 5px;
+    background-color:#272727;
+    border-radius: 50%;
+}
+.skillCircleOrange{
+    height: 5px;
+    width: 5px;
+    /* margin-left: 5px; */
+    margin-right: 4px;
+    padding: 5px;
+    background-color: #f2ab44;
+    border-radius: 50%;
+}
+
+/* skill Desc ends here */
+
+/* language starts here */
+.languageDesc{
+    height: .9in;
+    padding: 10px;
+    padding-top: 20px;
+}
+.bangla{
+    display: flex;
+    flex-direction: row;
+
+}
+.leftBangla{
+    flex: 20%;
+}
+.rightBangla{
+    padding-top: 5px;
+    flex: 80%;
+
+}
+.bar{
+    width: 50%;
+    height: 6px;
+    background-color: #272727;
+}
+
+.barBangla{
+    width: 100%;
+    height: 6px;
+    background-color: var(--designedtext);
+}
+.english{display: flex;
+flex-direction: row;
+}
+
+.leftEnglish{
+    flex: 20%;
+}
+.rightEnglish{
+    padding-top: 5px;
+    flex: 80%;
+
+}
+.barEnglish{
+    width: 83%;
+    height: 6px;
+    background-color: var(--designedtext);
+}
+/* language ends here */
+
+/* reference section starts here */
+.referencesDesc{
+    height: 1.8in;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+
+/* interest section starts here */
+.interestsDesc{
+    height: .9in;
+    padding: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.gaming{
+    /* flex: 24%; */
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.travelling{
+    /* flex:24%; */
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.singing{
+    /* flex: 24%; */
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sketching{
+    /* flex: 24%; */
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+i{
+    color: var(--designedtext);   
+
+}
+.allignmentGaming{
+    padding-left: 14px;
+}
+.allignmentTravelling{
+    padding-left: 36px;
+
+}
+.allignmentSinging{
+    padding-left: 14px;
+
+}
+.allignmentSketching{
+    padding-left: 30px;
+}
+.spaceIcon{
+    margin-bottom: .8rem;
+}
